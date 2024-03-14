@@ -179,8 +179,8 @@ const onTransformHandler = async () =>{
  
     setnewTransformation(null)
 
-    startTransition( async () => {
-       await updateCredits(userId,-1);
+    startTransition( () => {
+      updateCredits(userId,-1);
     })
 };
 
