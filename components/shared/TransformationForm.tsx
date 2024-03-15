@@ -180,7 +180,7 @@ const onTransformHandler = async () =>{
     setnewTransformation(null)
 
     startTransition( () => {
-      updateCredits(userId,-1);
+       updateCredits(userId,-1);
     })
 };
 
